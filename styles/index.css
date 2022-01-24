@@ -5,6 +5,10 @@
 @import "./components/grid.css";
 @import "./components/header.css";
 @import "./components/nav.css";
+@import "./components/home.css";
+@import "./components/button.css";
+@import "./components/about.css";
+@import "./components/skills.css";
 
 @font-face {
   font-family: "poppinsmedium";

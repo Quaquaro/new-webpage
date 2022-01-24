@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="185mm"
+   viewBox="0 0 210 185"
+   version="1.1"
+   id="svg9755"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="mail.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9757"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     height="192mm"
+     inkscape:zoom="0.61825196"
+     inkscape:cx="387.38251"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1512"
+     inkscape:window-height="916"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs9752">
+    <symbol
+       id="PostOffice">
+      <title
+         id="title10462">Post Office</title>
+      <g
+         style="fill:none;stroke-width:4"
+         id="g10472">
+        <path
+           d="m 2.778125,14.578542 h 13.49375 V 4.6302083 H 2.778125 Z"
+           id="path10464"
+           style="stroke-width:1.05833" />
+        <path
+           d="M 2.9104167,4.6963542 8.73125,10.675937 c 0.4233333,0.423334 1.1641667,0.423334 1.5875,0.0033 l 5.820833,-5.9828908"
+           id="path10466"
+           style="stroke-width:1.05833" />
+        <path
+           d="M 3.175,14.2875 7.6464583,9.7895833"
+           id="path10468"
+           style="stroke-width:1.05833" />
+        <path
+           d="M 15.875,14.2875 11.403542,9.7895833"
+           id="path10470"
+           style="stroke-width:1.05833" />
+      </g>
+    </symbol>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <use
+       xlink:href="#PostOffice"
+       style="fill:#5777e0;stroke:#5777e0"
+       id="use12035"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="matrix(13.948396,0,0,14.829777,-27.795794,-48.866559)" />
+  </g>
+</svg>
