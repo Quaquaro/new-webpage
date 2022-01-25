@@ -1,36 +1,37 @@
-@import "./colors.css";
-@import "./base.css";
-@import "./components/section.css";
-@import "./components/container.css";
-@import "./components/grid.css";
-@import "./components/header.css";
-@import "./components/nav.css";
-@import "./components/home.css";
-@import "./components/button.css";
-@import "./components/about.css";
-@import "./components/skills.css";
-@import "./components/qualification.css";
+@import './colors.css';
+@import './base.css';
+@import './components/section.css';
+@import './components/container.css';
+@import './components/grid.css';
+@import './components/header.css';
+@import './components/nav.css';
+@import './components/home.css';
+@import './components/button.css';
+@import './components/about.css';
+@import './components/skills.css';
+@import './components/qualification.css';
+@import './components/services.css';
 
 @font-face {
-  font-family: "poppinsmedium";
-  src: url("./fonts/poppins-medium-webfont.woff2") format("woff2"),
-    url("./fonts/poppins-medium-webfont.woff") format("woff");
+  font-family: 'poppinsmedium';
+  src: url('./fonts/poppins-medium-webfont.woff2') format('woff2'),
+    url('./fonts/poppins-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "poppinsregular";
-  src: url("./fonts/poppins-regular-webfont.woff2") format("woff2"),
-    url("./fonts/poppins-regular-webfont.woff") format("woff");
+  font-family: 'poppinsregular';
+  src: url('./fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('./fonts/poppins-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "poppinssemibold";
-  src: url("./fonts/poppins-semibold-webfont.woff2") format("woff2"),
-    url("./fonts/poppins-semibold-webfont.woff") format("woff");
+  font-family: 'poppinssemibold';
+  src: url('./fonts/poppins-semibold-webfont.woff2') format('woff2'),
+    url('./fonts/poppins-semibold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
