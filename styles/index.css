@@ -9,6 +9,7 @@
 @import "./components/button.css";
 @import "./components/about.css";
 @import "./components/skills.css";
+@import "./components/qualification.css";
 
 @font-face {
   font-family: "poppinsmedium";
