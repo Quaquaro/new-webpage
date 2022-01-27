@@ -23,6 +23,8 @@ function linkAction() {
 
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
+//Skills
+
 const skillsContent = document.getElementsByClassName('skills__content');
 const skillsHeader = document.querySelectorAll('.skills__header');
 
@@ -41,6 +43,8 @@ skillsHeader.forEach((el) => {
   el.addEventListener('click', toggleSkills);
 });
 
+// Qualification Section
+
 const tabs = document.querySelectorAll('[data-target]');
 const tabContents = document.querySelectorAll('[data-content]');
 tabs.forEach((tab) => {
@@ -58,6 +62,8 @@ tabs.forEach((tab) => {
     tab.classList.add('qualification__active');
   });
 });
+
+// Services PopUp --> Use for Show Answer
 
 const modalViews = document.querySelectorAll('.services__modal');
 const modalBtns = document.querySelectorAll('.services__button');
