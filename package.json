@@ -37,6 +37,6 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
-    "**/*.html": "htmlhint"
+    "*.html": "htmlhint"
   }
 }
