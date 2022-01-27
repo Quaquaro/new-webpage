@@ -24,7 +24,7 @@ h4 {
   font-weight: var(--font-semi-bold);
 }
 
-ul[role="list"] {
+ul[role='list'] {
   list-style: none;
 }
 
