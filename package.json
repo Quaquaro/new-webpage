@@ -1,0 +1,42 @@
+{
+  "name": "apolynx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run prettier:check && npm run htmlhint",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write .",
+    "htmlhint": "npx htmlhint '**/*.html'",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quaquaro/new-webpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quaquaro/new-webpage/issues"
+  },
+  "homepage": "https://github.com/Quaquaro/new-webpage#readme",
+  "devDependencies": {
+    "@babel/core": "7.16.12",
+    "@storybook/addon-actions": "6.4.14",
+    "@storybook/addon-essentials": "6.4.14",
+    "@storybook/addon-links": "6.4.14",
+    "@storybook/html": "6.4.14",
+    "babel-loader": "8.2.3",
+    "htmlhint": "1.1.1",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.2",
+    "prettier": "2.5.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
+    "*.html": "htmlhint"
+  }
+}

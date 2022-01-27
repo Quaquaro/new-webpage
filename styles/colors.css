@@ -13,7 +13,7 @@
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: white;
 
-  --body-font: "poppinsregular", sans-serif;
+  --body-font: 'poppinsregular', sans-serif;
 
   --big-font-size: 2rem;
   --h1-font-size: 1.5rem;
@@ -51,4 +51,3 @@
     --smaller-font-size: 0.813rem;
   }
 }
-
