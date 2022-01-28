@@ -1,0 +1,5 @@
+{
+  "*.html": "htmlhint",
+  "*.js": "npm run eslint:write",
+  "*.{js,jsx,ts,tsx,md,css,html}": "prettier --write"
+}
