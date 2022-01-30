@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run prettier:check && npm run htmlhint",
+    "test": "npm run htmlhint && npm run prettier:check && npm run eslint:check",
     "prettier:check": "npx prettier --check .",
     "prettier:write": "npx prettier --write .",
+    "eslint:check": "npx eslint .",
+    "eslint:write": "npx eslint --fix .",
     "htmlhint": "npx htmlhint '**/*.html'",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
@@ -30,13 +32,11 @@
     "@storybook/addon-links": "6.4.14",
     "@storybook/html": "6.4.14",
     "babel-loader": "8.2.3",
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
     "htmlhint": "1.1.1",
     "husky": "^7.0.0",
     "lint-staged": "^12.3.2",
     "prettier": "2.5.1"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write",
-    "*.html": "htmlhint"
   }
 }
