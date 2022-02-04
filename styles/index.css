@@ -12,6 +12,11 @@
 @import './components/qualification.css';
 @import './components/services.css';
 @import './components/portfolio.css';
+@import './components/project.css';
+@import './components/testimonial.css';
+@import './components/contact-me.css';
+@import './components/footer.css';
+@import './components/scrollup.css';
 
 @font-face {
   font-family: 'poppinsmedium';

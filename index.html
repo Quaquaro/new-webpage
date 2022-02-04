@@ -15,7 +15,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul role="list" class="nav__list grid">
             <li class="nav__item">
-              <a href="#home" class="nav__link"
+              <a href="#home" class="nav__link active-link"
                 ><img
                   src="./img/home-alt.svg"
                   alt="home"
@@ -85,6 +85,15 @@
           />
         </div>
         <div class="nav__btns">
+          <!-- Theme change button -->
+          <img
+            src="./img/moon.svg"
+            alt="Dark-Mode"
+            heigth="32"
+            width="32"
+            id="theme-button"
+            class="change-theme"
+          />
           <div class="nav__toogle" id="nav-toggle">
             <img
               class="nav__toogle-img"
@@ -133,17 +142,17 @@
               >
                 <mask id="mask0" mask-type="alpha">
                   <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
         0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                   />
                 </mask>
                 <g mask="url(#mask0)">
                   <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
         -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
                   />
                   <image
@@ -981,8 +990,369 @@
         </div>
       </section>
       <!-- PROJECT IN MIND -->
-    </main>
+      <section class="project section">
+        <div class="project__bg">
+          <div class="project__container container grid">
+            <div class="projet__data">
+              <h2 class="project__title">You have a new project</h2>
+              <p class="project__description">
+                Contact me now and get a 30% discount on your new project.
+              </p>
+              <a href="#contact" class="button button--flex button--white"
+                >Contact Me
+                <img
+                  src="./img/message.svg"
+                  alt="Send me a Message"
+                  height="24"
+                  width="24"
+                  class="project__icon button__icon"
+              /></a>
+            </div>
+            <img
+              src="./img/profile_pic_gray.png"
+              alt="A picture of me"
+              class="project__img"
+            />
+          </div>
+        </div>
+      </section>
+      <!--########################## TESTIMONIAL ##################################### -->
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonial</h2>
+        <span class="section__subtitle">My client saying</span>
+        <div class="testimonial__container container">
+          <div>
+            <!--########################## TESTIMONIAL 1##################################### -->
+            <div class="testimonial__content">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="./img/testimonial1.jpg"
+                    alt="Testimonial 1"
+                    class="testimonial__img"
+                  />
+                  <div>
+                    <h3 class="testimonial__name">Sara Smith</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
 
+                <div>
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                </div>
+              </div>
+              <p class="testimonial__description">
+                I get a good impression, I carry out my project with all the
+                possible quality and attention and support 24 hours a day.
+              </p>
+            </div>
+            <!-- TESTIMONIAL 2 -->
+            <div class="testimonial__content">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="./img/testimonial2.jpg"
+                    alt="Testimonial 1"
+                    class="testimonial__img"
+                  />
+                  <div>
+                    <h3 class="testimonial__name">Matt Robinson</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
+
+                <div>
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                </div>
+              </div>
+              <p class="testimonial__description">
+                I get a good impression, I carry out my project with all the
+                possible quality and attention and support 24 hours a day.
+              </p>
+            </div>
+            <!-- TESTIMONIAL 3 -->
+            <div class="testimonial__content">
+              <div class="testimonial__data">
+                <div class="testimonial__header">
+                  <img
+                    src="./img/testimonial3.jpg"
+                    alt="Testimonial 3"
+                    class="testimonial__img"
+                  />
+                  <div>
+                    <h3 class="testimonial__name">Raul Harris</h3>
+                    <span class="testimonial__client">Client</span>
+                  </div>
+                </div>
+
+                <div>
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                  <img
+                    src="./img/star.svg"
+                    alt="Star"
+                    class="testimonial__icon-star"
+                    height="24"
+                    width="24"
+                  />
+                </div>
+              </div>
+              <p class="testimonial__description">
+                I get a good impression, I carry out my project with all the
+                possible quality and attention and support 24 hours a day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ########################CONTACT ME ######################################## -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+        <div class="contact__container container grid">
+          <div class="contact__information">
+            <img
+              src="./img/phone-alt.svg"
+              alt="Phone"
+              class="contact__icon"
+              heigth="32"
+              width="32"
+            />
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitle">999-777-666</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <img
+              src="./img/envelope.svg"
+              alt="Envelope"
+              class="contact__icon"
+              heigth="32"
+              width="32"
+            />
+            <div>
+              <h3 class="contact__title">E-Mail</h3>
+              <span class="contact__subtitle">c.timm@posteo.de</span>
+            </div>
+          </div>
+          <div class="contact__information">
+            <img
+              src="./img/map-marker.svg"
+              alt="Location"
+              class="contact__icon"
+              heigth="32"
+              width="32"
+            />
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Germany - Aumühle</span>
+            </div>
+          </div>
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="contact__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+              <div class="contact__content">
+                <label for="" class="contact__label">E-Mail</label>
+                <input type="email" class="contact__input" />
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Project</label>
+              <input type="text" class="contact__input" />
+            </div>
+            <div class="contact__content">
+              <label for="" class="contact__label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+            <div>
+              <a href="#" class="button button--flex"
+                >Send Message
+                <img
+                  src="./img/message_white.svg"
+                  alt="Message"
+                  height="24"
+                  width="24"
+                  class="button__icon"
+                />
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- ##########FOOOTER################# -->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Christoph</h1>
+            <span class="footer__subtitle">Fullstack Web Developer</span>
+          </div>
+          <ul role="list" class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contactme</a>
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <a
+              href="https://www.facebook.com"
+              class="footer-social"
+              target="_blank"
+            >
+              <img
+                src="./img/facebook-f.svg"
+                alt="Facebook"
+                height="18"
+                width="18" /></a
+            ><a
+              href="https://www.instagram.com"
+              class="footer-social"
+              target="_blank"
+            >
+              <img
+                src="./img/instagram.svg"
+                alt="Instagram"
+                height="18"
+                width="18" /></a
+            ><a
+              href="https://www.twitter.com"
+              class="footer-social"
+              target="_blank"
+            >
+              <img
+                src="./img/twitter-alt.svg"
+                alt="Twitter"
+                height="18"
+                width="18"
+              />
+            </a>
+          </div>
+        </div>
+        <p class="footer__copy">&#169; Apolynx All right reserved</p>
+      </div>
+    </footer>
+
+    <!-- ################SCROLL TOP =====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <img
+        src="./img/arrow-up.svg"
+        alt="Arrow"
+        height="32"
+        width="32"
+        class="scroll__icon"
+      />
+    </a>
     <script src="./scripts/main.js"></script>
   </body>
 </html>

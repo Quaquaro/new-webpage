@@ -17,6 +17,15 @@
   transition: 0.3s;
 }
 
+.button--white {
+  background-color: #fff;
+  color: var(--first-color);
+}
+
+.button--white:hover {
+  background-color: #fff;
+}
+
 .button--flex {
   display: inline-flex;
   align-items: center;
